@@ -60,5 +60,5 @@ pair<int, int> getSub(int l, int r, vector<pair<int, int>> &v){
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>StrHash</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<scope>source.cpp</scope>
+	<!-- <scope>source.c++</scope>  -->
 </snippet>
