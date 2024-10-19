@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+const int mxN = 1e5+10; 
+vector<int> divisors[mxN]; //
+void divisorSeive(){
+    for(int i = 1; i < mxN; i++){
+        for(int j = i; j < mxN; j += i){
+            divisors[j].push_back(i);
+        }
+    }
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>divisorSieve</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
