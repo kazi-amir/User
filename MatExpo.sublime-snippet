@@ -19,8 +19,7 @@ vector<vector<ll>> matExpo(vector<vector<ll>> &Mat, ll exp){
     for(ll i = 0; i<p; i++) res[i][i] = 1;
     while(exp){
         if(exp&1) res = matMul(res, Mat);
-        Mat = matMul(Mat, Mat);
-        exp>>=1;
+        Mat = matMul(Mat, Mat); exp>>=1;
     } return res;
 }
 //b = (A(i), A(i-1), A(i-2), A(i-3))

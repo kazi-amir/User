@@ -13,7 +13,7 @@ struct customHash{
         static const uint64_t FIXED_RANDOM = chrono::steady_clock::now().time_since_epoch().count();
         return Meaw(x+FIXED_RANDOM);
     }
-};
+}; //gp_hash_table<int, int> table;
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>customHash</tabTrigger>

@@ -7,8 +7,7 @@ int binExp(int base, int power, int mod){
     int res = 1;
     while(power){
         if(power&1) res = (1LL * res * base)%mod;
-        base = (1LL * base * base) % mod;
-        power>>=1;
+        base = (1LL * base * base) % mod; power>>=1;
     } return res;
 }
 void pre(){
