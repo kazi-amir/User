@@ -13,7 +13,7 @@ signed main(){
     cin.tie(NULL); cout.tie(NULL);
 
     int tcase = 1; 
-    //cin>>tcase;
+    //cin>>tcase;  
     for(int tc = 1; tc<=tcase; tc++){
         // cout<<"Case #"<<tc<<": ";
         solve();
