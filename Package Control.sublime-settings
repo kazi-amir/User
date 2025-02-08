@@ -1,7 +1,9 @@
 {
 	"installed_packages":
 	[
-		"Package Control"
+		"CodeFormatter",
+		"Package Control",
+		"SublimeAStyleFormatter",
 	],
 	"in_process_packages":
 	[
